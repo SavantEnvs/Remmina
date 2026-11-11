@@ -1,0 +1,7 @@
+[virt-viewer]
+type=spice
+host=desk.example.org
+port=:5900
+title=Desk
+fullscreen=1
+username=gina

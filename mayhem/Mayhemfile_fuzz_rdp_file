@@ -1,0 +1,10 @@
+project: savantenvs/Remmina
+target: fuzz_rdp_file
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_rdp_file/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_rdp_file
+    libfuzzer: true
+    timeout: 60
+    dictionary: /mayhem/mayhem/fuzz_rdp_file/fuzz_rdp_file.dict

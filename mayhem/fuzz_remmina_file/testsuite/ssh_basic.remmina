@@ -1,0 +1,9 @@
+[remmina]
+name=Jump host
+protocol=SSH
+server=example.org:22
+ssh_enabled=1
+ssh_username=bob
+ssh_auth=0
+ssh_tunnel_password=PKLteKHkPDI=
+scale=1.5

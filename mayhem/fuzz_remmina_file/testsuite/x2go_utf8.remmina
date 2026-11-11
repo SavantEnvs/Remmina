@@ -1,0 +1,7 @@
+[remmina]
+name=€ uro
+protocol=X2GO
+server=h
+ssh_tunnel_enabled=true
+colordepth=t
+scale=1,5

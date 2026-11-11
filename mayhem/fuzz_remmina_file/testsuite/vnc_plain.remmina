@@ -1,0 +1,11 @@
+[remmina]
+name=VNC office
+protocol=VNC
+server=192.168.1.20:5901
+password=PKLteKHkPDI=
+ssh_tunnel_enabled=0
+ssh_tunnel_password=PKLteKHkPDI=
+ssh_tunnel_passphrase=garbage!!
+resolution=800x600
+quality=9
+last_success=bogus

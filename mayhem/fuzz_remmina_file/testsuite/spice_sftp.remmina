@@ -1,0 +1,8 @@
+[remmina]
+name=Spice guest
+protocol=SPICE
+server=unix:///run/spice.sock
+password=.
+resolution=
+[state]
+note=ignored group

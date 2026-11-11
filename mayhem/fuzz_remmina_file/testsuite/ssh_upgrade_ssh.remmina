@@ -1,0 +1,19 @@
+[remmina]
+name=Legacy SSH profile
+protocol=SSH
+server=shell.example.org:2222
+username=erin
+ssh_enabled=1
+ssh_username=erin
+ssh_password=PKLteKHkPDI=
+ssh_server=jump.example.org:22
+ssh_loopback=1
+ssh_stricthostkeycheck=1
+ssh_kex_algorithms=curve25519-sha256
+ssh_hostkeytypes=ssh-ed25519
+ssh_ciphers=aes256-ctr
+ssh_proxycommand=nc %h %p
+ssh_passphrase=PKLteKHkPDI=
+ssh_auth=2
+ssh_privatekey=/home/erin/.ssh/id_ed25519
+last_success=20240131

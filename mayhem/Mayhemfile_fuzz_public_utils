@@ -1,0 +1,10 @@
+project: savantenvs/Remmina
+target: fuzz_public_utils
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_public_utils/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_public_utils
+    libfuzzer: true
+    timeout: 60
+    dictionary: /mayhem/mayhem/fuzz_public_utils/fuzz_public_utils.dict

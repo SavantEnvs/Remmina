@@ -1,0 +1,8 @@
+[virt-viewer]
+type=spice
+host=spice.example.com
+port=5900
+title=Guest VM
+fullscreen=0
+username=dave
+proxy=http://proxy.example.com:3128

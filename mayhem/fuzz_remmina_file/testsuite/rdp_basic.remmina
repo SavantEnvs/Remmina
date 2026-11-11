@@ -1,0 +1,10 @@
+[remmina]
+name=Office desktop
+protocol=RDP
+server=10.0.0.5:3390
+username=alice
+domain=CORP
+resolution=1280x800
+colordepth=32
+ssh_enabled=0
+password=PKLteKHkPDI=

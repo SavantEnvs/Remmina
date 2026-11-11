@@ -1,0 +1,9 @@
+[remmina]
+name=VNC lab
+protocol=VNC
+server=[::1]:5901
+ssh_tunnel_enabled=1
+ssh_tunnel_server=bastion.example.org
+ssh_tunnel_username=carol
+resolution=1024x768
+viewmode=1

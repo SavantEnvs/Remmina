@@ -1,0 +1,4 @@
+[virt-viewer]
+type=spice
+host=localhost
+title=local

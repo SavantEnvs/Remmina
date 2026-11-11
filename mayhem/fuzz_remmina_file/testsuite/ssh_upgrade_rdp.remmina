@@ -1,0 +1,23 @@
+[remmina]
+name=Legacy RDP over SSH
+group=Work/Lab
+protocol=RDP
+server=10.1.2.3
+username=frank
+password=PKLteKHkPDI=
+domain=LAB
+ssh_enabled=1
+ssh_username=frank
+ssh_password=PKLteKHkPDI=
+ssh_server=bastion.example.org
+ssh_loopback=0
+ssh_auth=0
+ssh_privatekey=
+resolution=1920x1080
+colordepth=16
+scale=0.75
+viewmode=2
+window_width=800
+window_height=600
+disablepasswordstoring=1
+last_success=2023-12-31

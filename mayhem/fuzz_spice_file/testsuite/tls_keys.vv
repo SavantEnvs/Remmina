@@ -1,0 +1,8 @@
+[virt-viewer]
+host=h
+port=:1
+tls-port=5901
+ca=-----BEGIN CERTIFICATE-----\nMIIB\n-----END CERTIFICATE-----
+host-subject=O=x,CN=h
+secure-channels=main;inputs
+delete-this-file=1
